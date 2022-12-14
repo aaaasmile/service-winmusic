@@ -1,0 +1,12 @@
+*.exe
+*.zip
+debug
+*.exe~
+*.log
+*.txt
+cert/tmp
+cert/tmp/*.*
+cert/*.pfx
+cert/*-enc.key
+scratch/*
+*.json

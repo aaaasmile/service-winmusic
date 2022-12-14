@@ -1,0 +1,17 @@
+#Configuration file used in DEVELOPEMENT. 
+## NOTE: if you get this error: 
+# Near line 0 (last key parsed ''): bare keys cannot contain '\ufeff'
+# It is because this config.toml file is saved with BOM. Notepad does it, please use "save as.." with UTF-8 without BOM.
+
+#Webservice
+DebugVerbose = true 
+ServiceURL = "127.0.0.1:5590" 
+RootURLPattern = "/winmusic/" 
+VuetifyLibName = "vuetify.js"
+VueLibName = "vue.js"
+DBPath= "../db/test-data-windows.db"
+MusicDir="D:\\Music\\ipod"
+
+[Player]
+Path="C:\\Program Files\\VideoLAN\\VLC\\vlc.exe"
+Params="-I dummy --dummy-quiet"
