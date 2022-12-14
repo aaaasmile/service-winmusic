@@ -13,6 +13,7 @@ type Config struct {
 	DebugVerbose   bool
 	VuetifyLibName string
 	VueLibName     string
+	DBPath         string
 	MusicDir       string
 	Player         Player
 }
