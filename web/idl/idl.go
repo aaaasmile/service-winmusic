@@ -1,8 +1,9 @@
 package idl
 
 var (
-	Appname = "win-music"
-	Buildnr = "00.000.01.20221214-00"
+	Appname        = "win-music"
+	Buildnr        = "00.000.01.20221214-00"
+	WebServiceName = "WinMusic"
 )
 
 type StreamProvider interface {
